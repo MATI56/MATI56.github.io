@@ -1,4 +1,22 @@
 const projects = [
+    {
+        title: "\"Ciach\"",
+        image: "images/Ciach.png",
+        alt: "Screenshot from the game \"Ciach\"",
+        description: "Immersive VR sword-fighting game featuring responsive controls and realistic enemy AI based on real defensive techniques.",
+        tools: ["Unity", "C#", "VR"],
+        //  link: "project-bike.html"
+        link: "https://www.youtube.com/watch?v=tB2oVVKE90A"
+    },
+    {
+        title: "Heroes Project",
+        image: "images/HeroesProject.jpg",
+        alt: "Screenshot from the game Heroes Project",
+        description: "A turn-based strategy game inspired by Heroes of Might and Magic 3. Tough choices, short and long term consequences.",
+        tools: ["Unity", "C#"],
+        //  link: "project-bike.html"
+        link: "https://store.steampowered.com/app/2522830/Heroes_Project"
+    },
   {
     title: "Fortune Guesser",
     image: "images/tarotgame.png",
@@ -8,44 +26,43 @@ const projects = [
 //  link: "project-tarot.html"
 	  link: "https://zachpetty.itch.io/fortune-guesser"
   },
-
-  {
-    title: "Lyin' Jack",
-    image: "images/blackjack.png",
-	  alt: "Screenshot from the game Lyin' Jack",
-    description: "A 2D Blackjack \"Balatro but it's blackjack and gambling\" styled card game prototype featuring hand crafted pixel art.",
-	  tools: ["Unity","C#","WebGL"],
-//  link: "project-blackjack.html"
-	  link: "https://mcalmic.itch.io/lyin-jack"
-  },
-
-  {
-    title: "\"Bike Game\"",
-    image: "images/bikegame.png",
-	  alt: "Screenshot from the game \"Bike Game\"",
-    description: "A fast-paced, horror-themed mountain biking game prototype created for Serenity Forge through the RealXP Lab program.",
-	  tools: ["Unity","C#","Notion"],
-//  link: "project-bike.html"
-      link: "https://youtu.be/q9n3clmma_A"
-    },
-  {
-        title: "\"Ciach\"",
-      image: "images/Ciach.png",
-      alt: "Screenshot from the game \"Ciach\"",
-      description: "Immersive VR sword-fighting game featuring responsive controls and realistic enemy AI based on real defensive techniques.",
-        tools: ["Unity", "C#"],
+    {
+        title: "\"Bike Game\"",
+        image: "images/bikegame.png",
+        alt: "Screenshot from the game \"Bike Game\"",
+        description: "A fast-paced, horror-themed mountain biking game prototype created for Serenity Forge through the RealXP Lab program.",
+        tools: ["Unity", "C#", "Notion"],
         //  link: "project-bike.html"
-      link: "https://www.youtube.com/watch?v=tB2oVVKE90A"
+        link: "https://youtu.be/q9n3clmma_A"
     },
     {
-        title: "Heroes Project",
-        image: "images/HeroesProject.jpg",
-        alt: "Screenshot from the game Heroes Project",
-        description: "A turn-based strategy game based on Heroes of Might and Magic 3.",
+        title: "\"Deadline\"",
+        image: "images/U5GamePrototype.png",
+        alt: "Screenshot from the U5 Game Prototype",
+        description: "A timed puzzle game where you explore once to gather clues, then rush to execute a precise sequence before the clock hits zero to win.",
+        tools: ["Unreal Engine", "C++"],
+        //  link: "project-bike.html"
+        link: "https://www.youtube.com/watch?v=hFi-SDoRxiM"
+    },
+    {
+        title: "Running an internship",
+        image: "images/internship.png",
+        alt: "Screenshot from the internship",
+        description: "I ran a game-development internship where we created two playable prototypes. The practice focused on rapid prototyping, and teamwork.",
         tools: ["Unity", "C#"],
         //  link: "project-bike.html"
-        link: "https://store.steampowered.com/app/2522830/Heroes_Project"
+        link: "https://gry-eti.itch.io"
+    },
+    {
+        title: "Lyin' Jack",
+        image: "images/blackjack.png",
+        alt: "Screenshot from the game Lyin' Jack",
+        description: "A 2D Blackjack \"Balatro but it's blackjack and gambling\" styled card game prototype featuring hand crafted pixel art.",
+        tools: ["Unity", "C#", "WebGL"],
+        //  link: "project-blackjack.html"
+        link: "https://mcalmic.itch.io/lyin-jack"
     }
+
 ];
 
 const projectList = document.getElementById("project-list");
