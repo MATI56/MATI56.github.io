@@ -8,8 +8,8 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Orbitron', sans-serif;
-  color: #00ccff;
+    font-family: 'Orbitron', sans-serif;
+    color: #0a45f5;
 }
 
 .container {
@@ -50,22 +50,22 @@ h1, h2 {
 }
 
 .scroll-arrow {
-  font-size: 2rem;
-  color: #00ccff;
-  animation: bounce 1.5s infinite;
-  text-decoration: none;
+    font-size: 2rem;
+    color: #0a45f5;
+    animation: bounce 1.5s infinite;
+    text-decoration: none;
 }
 
 .btn {
-  display: inline-block;
-  background: #00ccff;
-  color: #121212;
-  padding: 0.75rem 1.25rem;
-  border: none;
-  border-radius: 0.25rem;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background 0.3s;
+    display: inline-block;
+    background: #0a45f5;
+    color: #121212;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
 }
 
 .btn:hover {
@@ -99,9 +99,9 @@ h1, h2 {
   font-weight: 500;
 }
 
-.navbar a:hover {
-  color: #00ccff;
-}
+    .navbar a:hover {
+        color: #0a45f5;
+    }
 
 /* About */
 .about {
@@ -131,10 +131,10 @@ h1, h2 {
   margin-top: 1rem;
 }
 
-.skills li::before {
-  content: "• ";
-  color: #00ccff;
-}
+    .skills li::before {
+        content: "• ";
+        color: #0a45f5;
+    }
 
 /* Projects */
 .projects {
@@ -167,10 +167,10 @@ h1, h2 {
   margin-bottom: 1rem;
 }
 
-.project-card h3 {
-  margin: 0.5rem 0;
-  color: #00ccff;
-}
+    .project-card h3 {
+        margin: 0.5rem 0;
+        color: #0a45f5;
+    }
 
 /* Testimonials */
 .testimonials {
@@ -179,12 +179,12 @@ h1, h2 {
 }
 
 .testimonial {
-  background: #1e1e1e;
-  padding: 1.5rem;
-  margin: 1rem auto;
-  border-left: 3px solid #00ccff;
-  max-width: 600px;
-  font-style: italic;
+    background: #1e1e1e;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-left: 3px solid #0a45f5;
+    max-width: 600px;
+    font-style: italic;
 }
 
 /* Footer */
