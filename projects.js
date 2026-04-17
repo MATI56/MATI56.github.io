@@ -35,6 +35,15 @@ const projects = [
         //  link: "project-bike.html"
         link: "https://youtu.be/q9n3clmma_A"
     },
+		{
+        title: "NOL",
+        image: "images/NOL.png",
+        alt: "Screenshot from the game NOL",
+        description: "An interactive game about trying to contact UFOs through exploration and environmental interaction. Players find hidden clues to unlock the mystery.",
+        tools: ["Unity", "C#", "WebGL"],
+        //  link: "project-blackjack.html"
+        link: "https://antonver.itch.io/project-n-o-l"
+    },
     {
         title: "\"Deadline\"",
         image: "images/U5GamePrototype.png",
@@ -52,17 +61,7 @@ const projects = [
         tools: ["Unity", "C#"],
         //  link: "project-bike.html"
         link: "https://gry-eti.itch.io"
-    },
-    {
-        title: "Lyin' Jack",
-        image: "images/blackjack.png",
-        alt: "Screenshot from the game Lyin' Jack",
-        description: "A 2D Blackjack \"Balatro but it's blackjack and gambling\" styled card game prototype featuring hand crafted pixel art.",
-        tools: ["Unity", "C#", "WebGL"],
-        //  link: "project-blackjack.html"
-        link: "https://mcalmic.itch.io/lyin-jack"
     }
-
 ];
 
 const projectList = document.getElementById("project-list");
